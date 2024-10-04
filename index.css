@@ -92,7 +92,7 @@ ul li:hover {
 }
 .highlight {
     animation: highlightAnimation 2s infinite alternate;
-   /* box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);*/
+   
 }
 
 @keyframes highlightAnimation {
@@ -100,7 +100,7 @@ ul li:hover {
         box-shadow: 0 0 0 rgba(255, 255, 255, 0);
     }
     50% {
-        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8); /* Ajusta el último valor (0.8) para aumentar el brillo */
+        box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.8);
     }
     100% {
         box-shadow: 0 0 0 rgba(255, 255, 255, 0);
